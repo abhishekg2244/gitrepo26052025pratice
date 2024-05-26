@@ -5,3 +5,6 @@ variable "rgvariable" {
 variable "vnet" {
   type = map
 }
+variable "subnet" {
+  type = map(any)
+}
